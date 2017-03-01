@@ -16,7 +16,7 @@ public class Startup {
 //        Writer writer = new ConsoleWriter();
 
 
-        Reader reader = new ArrayMessageReader();
+        Reader reader = new RandomArrayMessageReader();
         Writer writer = new JOptionPaneWriter();
          
                  

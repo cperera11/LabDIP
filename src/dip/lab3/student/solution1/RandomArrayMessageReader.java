@@ -13,7 +13,7 @@ import java.util.Random;
  *
  * @author CPerera
  */
-public class ArrayMessageReader implements Reader {
+public class RandomArrayMessageReader implements Reader {
     private String input;
     private List <String> messageArray = new ArrayList <String>();
 
