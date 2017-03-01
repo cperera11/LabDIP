@@ -18,9 +18,8 @@ public class MessagingSystem {
         this.writer = writer;
     }
     
-    public final void displayMessage(){
-       String line = reader.readLine();
-       writer.writeLine(line);
+    public final void sendMessage(){
+        writer.writeLine(reader.readLine());
     }
     
 }

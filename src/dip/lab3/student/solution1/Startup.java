@@ -7,7 +7,7 @@ package dip.lab3.student.solution1;
 
 /**
  *
- * @author CPere
+ * @author CPerera
  */
 public class Startup {
      public static void main(String[] args) {
@@ -16,12 +16,12 @@ public class Startup {
 //        Writer writer = new ConsoleWriter();
 
 
-        Reader reader = new JOptionPaneReader();
+        Reader reader = new ArrayMessageReader();
         Writer writer = new JOptionPaneWriter();
          
                  
         MessagingSystem message = new MessagingSystem(reader,writer);
-        message.displayMessage();
+        message.sendMessage();
      
         
     }
